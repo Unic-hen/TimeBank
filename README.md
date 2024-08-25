@@ -1,21 +1,26 @@
-# develop info
 
-**一定要先拉取再开发**
+# 启动方式
 
-```shell
-git pull
-```
-
-没拉取开发了，不想本地被覆盖：
-先本地暂存，然后再拉取，上传
+- npm
 
 ```shell
-git stash
-git pull
-git add .
-git commit -m "message"
-git push origin tree
+npm install
+npm run dev
 ```
+
+- yarn
+
+```shell
+yarn
+yarn run dev
+```
+
+针对国家老龄化问题设计并开发的全栈项目，前期使用node作为后端，antd搭建前端对项目原型快速开发，后期与后端完善和优化完善各个模块。
+
+使用react全家桶作为前端框架，antd作为ui框架，sass处理样式 
+封装常用信息描述组件、echarts图表组件
+使用pm2使node后端上云服务器，实现便捷接口调用，利用express操作数据并暴露接口
+使用图片懒加载，优化页面渲染 
 
 ## 文件夹
 
@@ -68,35 +73,26 @@ git push origin tree
 
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# develop info
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-# 已有仓库
-
-git remote add origin https://gitee.com/cxy_gitee_123456/bank.git
-git push -u origin "master"
-
-# 启动方式
-
-- npm
+**一定要先拉取再开发**
 
 ```shell
-npm install
-npm run dev
+git pull
 ```
 
-- yarn
+没拉取开发了，不想本地被覆盖：
+先本地暂存，然后再拉取，上传
 
 ```shell
-yarn
-yarn run dev
+git stash
+git pull
+git add .
+git commit -m "message"
+git push origin tree
 ```
 
-- 在线服务(暂时停止维护)
+- nodejs在线服务(暂时停止维护)
 
 ```shell
 cd server
