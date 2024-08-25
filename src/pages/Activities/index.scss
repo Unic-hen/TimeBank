@@ -1,0 +1,15 @@
+.activite-title {
+  font-size: 22px;
+  &:hover {
+    animation: move 1.5s infinite alternate linear;
+  }
+}
+
+@keyframes move {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(calc(-100% + 180px), 0);
+  }
+}

@@ -1,0 +1,21 @@
+.panel {
+  // .scrollContent::-webkit-scrollbar {
+  //   width: 0; //隐藏滚动条
+  // }
+  // 给表格加上边框
+  // 给每个cell都加上边框
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  th {
+    padding: 8px;
+    text-align: center;
+    // border: 1px solid #777;
+  }
+  td {
+    border-bottom: 1px solid #777;
+    padding: 8px;
+    text-align: center;
+  }
+}

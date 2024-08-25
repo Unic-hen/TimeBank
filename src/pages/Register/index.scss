@@ -1,0 +1,52 @@
+h1 {
+  text-align: center;
+}
+
+.RoleSex {
+  text-align: center;
+  div {
+    .adm-image {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 50%;
+      .adm-image-img {
+        width: 130%;
+        height: 130%;
+      }
+    }
+  }
+}
+
+.pcregister {
+  width: 96%;
+
+  height: 92%;
+  position: fixed;
+  // background-color: #eaf3fa;
+
+  .steps {
+    position: relative;
+    margin: 10px auto;
+    width: 80%;
+    h1 {
+      text-align: left;
+      font-size: 40px;
+      letter-spacing: 5px;
+      color: #13227a;
+      margin-bottom: 20px;
+    }
+  }
+  .registerForm {
+    background-color: #fff;
+    margin: 20px auto;
+    width: 40%;
+    padding: 20px;
+    border: 1px solid #13227a;
+    min-width: 560px;
+  }
+  .buttons {
+    margin: 20px auto;
+    width: 200px;
+  }
+}

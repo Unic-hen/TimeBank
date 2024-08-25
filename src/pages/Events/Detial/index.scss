@@ -1,0 +1,108 @@
+.detial {
+  font-size: 20px;
+  .header {
+    justify-content: left;
+    img {
+      width: 500px;
+      height: 300px;
+      border: 1px solid #777;
+    }
+    .info {
+      margin-left: 20px;
+      width: 60%;
+      line-height: 60px;
+      .name {
+        font-weight: 800;
+        font-size: 30px;
+        word-break: break-all;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        margin-bottom: 10px;
+      }
+      p {
+        display: inline;
+        font-size: 24px;
+      }
+      span {
+        display: inline;
+        color: #555;
+        margin-left: 20px;
+      }
+    }
+  }
+  .control {
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    margin: 30px 0;
+    div {
+      width: 420px;
+      display: flex;
+      justify-content: space-between;
+      p {
+        width: 150px;
+        font-size: 24px;
+        span {
+          margin-left: 10px;
+          color: red;
+        }
+      }
+    }
+    .botton {
+      width: 200px;
+    }
+  }
+  .baseinfo {
+    .symbol {
+      padding: 5px 20px;
+      width: 160px;
+      border-radius: 50px;
+      color: #124f7a;
+      background-color: #c4d8df;
+      font-family: STSong;
+      font-weight: bold;
+    }
+    .content {
+      margin: 20px;
+      display: flex;
+      justify-content: space-between;
+      div {
+        width: 560px;
+        line-height: 30px;
+
+        span {
+          width: 16px;
+          color: #999;
+        }
+      }
+    }
+  }
+  .otherinfo {
+    .symbol {
+      width: 160px;
+      padding: 5px 20px;
+      border-radius: 50px;
+      color: #d89b24;
+      background-color: #f5ebae;
+      font-family: STSong;
+      font-weight: bold;
+    }
+    .desc {
+      div {
+        margin: 20px;
+        span {
+          color: #ffd384;
+        }
+        p {
+          text-indent: 2em;
+          font-size: 16px;
+        }
+      }
+    }
+  }
+}

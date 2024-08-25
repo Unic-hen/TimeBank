@@ -1,0 +1,23 @@
+.userInfoHead {
+  width: 100%;
+  height: 150px;
+  position: relative;
+  .adm-space-item {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.pcuserinfo {
+  .info {
+    margin-top: 20px;
+    width: 500px;
+    .edit {
+      position: relative;
+
+      float: right;
+    }
+  }
+}
